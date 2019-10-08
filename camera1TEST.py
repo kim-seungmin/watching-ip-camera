@@ -1,6 +1,6 @@
 import cv2
-url = 'rtsp://admin:88888888@172.24.1.63:10554/tcp/av0_0'
-cap = cv2.VideoCapture(url)
+rtsp = 'ur rtsp address'
+cap = cv2.VideoCapture(rtsp)
 while True:
     ret, image = cap.read()
     cv2.imshow('stream', image)
